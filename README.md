@@ -13,7 +13,7 @@ Development: https://github.com/CyrilJl/TimeFiller
 
 Documentation: https://timefiller.readthedocs.io/en/latest/index.html
 
-A package for imputing missing data in time series
+timefiller is a Python package for time series imputation and forecasting. When applied to a set of correlated time series, each series is processed individually, leveraging correlations with the other series as well as its own auto-regressive patterns. The package is designed to be easy to use, even for non-experts.
 
 Current build status
 ====================
