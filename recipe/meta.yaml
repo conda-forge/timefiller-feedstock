@@ -1,5 +1,5 @@
 {% set name = "timefiller" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/timefiller-{{ version }}.tar.gz
-  sha256: bdc9f516de88e72324c5b4bf15fea7dccfab42f1d4a1e0322f17a943db7b38ca
+  sha256: 1392305e22c546b46d89d8806da1e7ef24db3076ed2d785d45afa5b85d89c0a1
 
 build:
   noarch: python
@@ -21,6 +21,7 @@ requirements:
     - setuptools
   run:
     - python >=3.8
+    - numba
     - numpy
     - optimask
     - pandas
