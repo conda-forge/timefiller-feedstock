@@ -1,5 +1,5 @@
 {% set name = "timefiller" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/timefiller-{{ version }}.tar.gz
-  sha256: 1392305e22c546b46d89d8806da1e7ef24db3076ed2d785d45afa5b85d89c0a1
+  sha256: 2fae6dc28c69e65e1388c0b33ee27c56b8a7d678ac89ebc1ed3b78e11e84d0df
 
 build:
   noarch: python
