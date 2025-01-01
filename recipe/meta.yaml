@@ -21,12 +21,12 @@ requirements:
     - setuptools
   run:
     - python >=3.8
+    - mapie
     - numba
     - numpy
     - optimask
     - pandas
     - scikit-learn
-    - statsmodels
     - tqdm
 
 test:
