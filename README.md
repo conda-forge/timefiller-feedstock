@@ -7,7 +7,7 @@ Home: https://github.com/CyrilJl/TimeFiller
 
 Package license: MIT
 
-Summary: A package for imputing missing data in time series
+Summary: A package for imputing missing data in time series, or forecasting in missing data contexts
 
 Development: https://github.com/CyrilJl/TimeFiller
 
